@@ -1,4 +1,7 @@
-from telebot import TeleBot, types
+import os
+import time
+import telebot
+from fpdf import FPDF
 
 # ================== CONFIG ==================
 TOKEN = os.getenv("BOT_TOKEN")   # <<< SA TOKEN DAGA BOTFATHER
