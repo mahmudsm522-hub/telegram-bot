@@ -7,7 +7,7 @@ from fpdf import FPDF
 TOKEN = os.getenv("BOT_TOKEN")   # <<< SA TOKEN DAGA BOTFATHER
 ADMIN_ID = 6648308251              # <<< SA TELEGRAM ID NAKA (BA USERNAME BA)
 
-bot = TeleBot(TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 # ================== DATA ==================
 users = {}
