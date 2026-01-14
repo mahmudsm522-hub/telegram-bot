@@ -1,6 +1,7 @@
 import os
 import time
 import telebot
+from telebot import types
 from fpdf import FPDF
 
 # ================== CONFIG ==================
